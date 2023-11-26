@@ -1,0 +1,35 @@
+{
+    "Caja": [
+        {
+            "Numero": "A001",
+            "Nombre": "Gaston Exequiel",
+            "Apellido": "Fernandez"
+        }
+    ],
+    "Cuentas": [
+        {
+            "Numero": "B001",
+            "Nombre": "Gaston Exequiel",
+            "Apellido": "Fernandez"
+        },
+        {
+            "Numero": "B002",
+            "Nombre": "Gaston Exequiel",
+            "Apellido": "Fernandez"
+        }
+    ],
+    "Productos": [
+        {
+            "Numero": "P001",
+            "Nombre": "Gaston Exequiel",
+            "Apellido": "Fernandez"
+        }
+    ],
+    "Consultas": [
+        {
+            "Numero": "C001",
+            "Nombre": "Gaston Exequiel",
+            "Apellido": "Fernandez"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+#my-text {
+  color: red;
+}
+
+#bodyCompleto {
+  background-color: #100030;
+}
+
+.navegacion{
+  display: flex;
+}
+
+ul li{
+  list-style: none;
+}
