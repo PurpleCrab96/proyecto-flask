@@ -1,11 +1,13 @@
 {% extends 'layout.html' %} {% block body %}
 
+<h1>{{ mensaje }}</h1>
+
 <h1 id="my-text" onclick="showAlert();">Un texto con el que probamos cosas.</h1>
 
 <div class="container text-center">
     <div class="row align-items-start">
         <div class="col-6">
-            <a href="{{ url_for('cliente') }}">
+            <a href="{{ url_for('banco') }}">
                 <img src="{{ url_for('static', filename='img/banco.jpg') }}" alt="Banco" width="100%" />
             </a>
         </div>

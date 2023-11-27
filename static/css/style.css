@@ -1,15 +1,5 @@
-#my-text {
-  color: red;
-}
 
 #bodyCompleto {
-  background-color: #100030;
-}
-
-.navegacion{
-  display: flex;
-}
-
-ul li{
-  list-style: none;
+  background-color: #222831;
+  color: #fdf6fd;
 }

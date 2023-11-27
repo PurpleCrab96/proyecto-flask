@@ -11,11 +11,6 @@
             "Numero": "B001",
             "Nombre": "Gaston Exequiel",
             "Apellido": "Fernandez"
-        },
-        {
-            "Numero": "B002",
-            "Nombre": "Gaston Exequiel",
-            "Apellido": "Fernandez"
         }
     ],
     "Productos": [
@@ -23,6 +18,11 @@
             "Numero": "P001",
             "Nombre": "Gaston Exequiel",
             "Apellido": "Fernandez"
+        },
+        {
+            "Numero": "P002",
+            "Nombre": "jaime",
+            "Apellido": "oliva"
         }
     ],
     "Consultas": [
@@ -30,6 +30,16 @@
             "Numero": "C001",
             "Nombre": "Gaston Exequiel",
             "Apellido": "Fernandez"
+        },
+        {
+            "Numero": "C002",
+            "Nombre": "pepito",
+            "Apellido": "cordero"
+        },
+        {
+            "Numero": "C003",
+            "Nombre": "pepito",
+            "Apellido": "cordero"
         }
     ]
 }

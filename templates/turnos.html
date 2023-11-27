@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<h1>{{ mensaje }}</h1>
+
+<form action="/crear-turno" method="post" id="crear-turno">
+    <fieldset id="elegir">
+        <legend>Seleccione tipo de operacion:</legend>
+
+        <div>
+            <input type="radio" id="caja" name="elegir" value="Caja" checked />
+            <label for="caja">caja</label>
+        </div>
+
+        <div>
+            <input type="radio" id="cuentas" name="elegir" value="Cuentas" />
+            <label for="cuentas">cuentas</label>
+        </div>
+
+        <div>
+            <input type="radio" id="productos" name="elegir" value="Productos" />
+            <label for="productos">productos</label>
+        </div>
+
+        <div>
+            <input type="radio" id="consultas" name="elegir" value="Consultas" />
+            <label for="consultas">consultas</label>
+        </div>
+    </fieldset>
+    <input type="submit" value="Enviar">
+</form>
+
+
+{% endblock %}
