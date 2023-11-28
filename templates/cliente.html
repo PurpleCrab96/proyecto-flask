@@ -6,27 +6,4 @@
     <input type="text" id="dni" name="dni" required>
     <input type="submit" value="Enviar">
 </form>
-
-{% if mensaje %}
-<h1>{{ mensaje }}</h1>
-{% endif %}
-
-{% if mensaje_error %}
-<h1>{{ mensaje_error }}</h1>
-<h1>Pero no se preocupe, enseguida lo añadimos!</h1>
-
-<form action="/nuevo-cliente" method="post">
-    <label for="nombre">Ingrese su nombre:</label>
-    <input type="text" id="nombre" name="nombre" required>
-    <label for="apellido">Ingrese su apellido:</label>
-    <input type="text" id="apellido" name="apellido" required> <!-- Corregido type="text" -->
-    <label for="date">Ingrese su fecha de nacimiento:</label>
-    <input type="date" id="edad" name="edad" required>
-    <input type="submit" value="Enviar">
-</form>
-
-{% if mensaje %}
-<h1>{{ mensaje }}</h1>
-{% endif %}
-{% endif %}
 {% endblock %}

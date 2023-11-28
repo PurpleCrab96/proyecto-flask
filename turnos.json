@@ -21,8 +21,8 @@
         },
         {
             "Numero": "P002",
-            "Nombre": "jaime",
-            "Apellido": "oliva"
+            "Nombre": "Gaston Exequiel",
+            "Apellido": "Fernandez"
         }
     ],
     "Consultas": [
@@ -33,13 +33,8 @@
         },
         {
             "Numero": "C002",
-            "Nombre": "pepito",
-            "Apellido": "cordero"
-        },
-        {
-            "Numero": "C003",
-            "Nombre": "pepito",
-            "Apellido": "cordero"
+            "Nombre": "Gaston Exequiel",
+            "Apellido": "Fernandez"
         }
     ]
 }
